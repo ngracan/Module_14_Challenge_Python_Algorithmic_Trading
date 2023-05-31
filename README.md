@@ -32,7 +32,7 @@ Support Vector Machine (SVM) model returns plot:
 
 ![](SVM_model_plot.png)
 
-Logistic Regression Classification model returns plot:
+Logistic Regression (LR) Classification model returns plot:
 
-![](
+![](LR_model_plot.png)
 
