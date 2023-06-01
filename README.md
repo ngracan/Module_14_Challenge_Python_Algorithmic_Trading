@@ -26,13 +26,28 @@ Evaluate a New Machine Learning Classifier
 
 Create an Evaluation Report
 
+---
+
+
 `Evaluation Report:`
 
-Support Vector Machine (SVM) model returns plot:
+> Support Vector Machine (SVM) model returns plot:
 
 ![](SVM_model_plot.png)
 
-Logistic Regression (LR) Classification model returns plot:
+Analysis:
+
+Overall, the SVM tuned baseline model does not perform very well based on the metrics in the classification report; the accuracy of the model was 55% and the recall scores for variables -1 and 1, were 4% and 96% respectivley. However, the high recall score for this model for variable 1(buying) indicates it does a pretty good job predicting profitable long-term investment opportunities. Also, based on the plot above, the strategy returns look to be in line for most of the time the analysis covers, at some points in time providing higher returns than the actuals. The use of this model would ultimatley depend on the class you might be trying to predict, but it would need improvement and further development.
+
+> Logistic Regression (LR) Classification model returns plot:
 
 ![](LR_model_plot.png)
+
+Analysis:
+
+The new model, using logisitic regression classifier, does not perform better than the baseline model based on the metrics in the classification report; the accuracy of the model was 52% and the recall scores for variables -1 and 1, were 33% and 66% respectivley. Although, the strategy returns predictions look to be trending higher than the actual returns for most of the time after 2020 in the case of the comparison with the use of the logistic regression model. The use of this model would ultimatley depend on the class you might be trying to predict, but it would need improvement and further development.
+
+`Comparison:`
+
+After comparsion of the SVM model and the new model using Logistic regression, the SVM model performs slightly better than the logistic regression model based on overall accuracy. However, the higher recall score for the new model in terms of variable class -1, indicates it would do a better job than the SVM model in predicting profitable short selling opportunities. Both models ultimatley do not perform very well and could use some further development; the use of either model would depend on the use case of the analysis. 
 
